@@ -1,1 +1,20 @@
 @charset "UTF-8";
+
+/* 基本 */
+body{
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+/* ヘッダー */
+.header{
+    height: 112px;
+    background-color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
